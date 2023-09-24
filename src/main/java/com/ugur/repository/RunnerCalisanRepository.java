@@ -9,10 +9,9 @@ public class RunnerCalisanRepository {
     public static void main(String[] args) {
         CalisanRepository calisanRepository = new CalisanRepository();
 
+//        calisanRepository.createTable();
 
-        System.out.println(calisanRepository.save(new Calisan("Uğur","Çelik")));
-        System.out.println("Tablo guncellemesi basarili...");
-        System.out.println();
+       System.out.println(calisanRepository.save(new Calisan("Uğur","Çelik")));
 
     }
 

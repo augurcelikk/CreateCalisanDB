@@ -4,20 +4,20 @@ public class Calisan {
 
     int id;
     String isim;
-    String soyisim;
+    String soyIsim;
 
     public Calisan() {
     }
 
-    public Calisan(int id, String isim, String soyisim) {
+    public Calisan(int id, String isim, String soyIsim) {
         this.id = id;
         this.isim = isim;
-        this.soyisim = soyisim;
+        this.soyIsim = soyIsim;
     }
 
-    public Calisan(String isim, String soyisim) {
+    public Calisan(String isim, String soyIsim) {
         this.isim = isim;
-        this.soyisim = soyisim;
+        this.soyIsim = soyIsim;
     }
 
     public int getId() {
@@ -36,12 +36,12 @@ public class Calisan {
         this.isim = isim;
     }
 
-    public String getSoyisim() {
-        return soyisim;
+    public String getSoyIsim() {
+        return soyIsim;
     }
 
-    public void setSoyisim(String soyisim) {
-        this.soyisim = soyisim;
+    public void setSoyIsim(String soyIsim) {
+        this.soyIsim = soyIsim;
     }
 
     @Override
@@ -49,7 +49,7 @@ public class Calisan {
         return "Calisan{" +
                 "id=" + id +
                 ", isim='" + isim + '\'' +
-                ", soyisim='" + soyisim + '\'' +
+                ", soyisim='" + soyIsim + '\'' +
                 '}';
     }
 }
